@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'sourgummy';
+    src: url('./fonts/SourGummy-Italic-VariableFont_wdth\,wght.ttf') format('woff2'),
+         url('./fonts/SourGummy-VariableFont_wdth\,wght.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+
+
+    font-family: "Inter", sans-serif;
+
+    overflow-x: hidden;
+    font-style: normal;
+
+
+
+}
+
+
+
+header img {
+    float: left;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-fit {
+    height: fit-content;
+}
+
+.bg-black {
+    background: black;
+}
+
+.bg-dark-blue {
+    background-color: #020d16;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.p-20 {
+    padding-left: 20px;
+}
+
+.text-white {
+    color: white
+}
+
+.inline-block {
+    display: inline-block
+}
+
+.text-center {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.w-80p {
+    width: 80%;
+}
+
+nav {
+    padding: 30px 0;
+    border-bottom: black solid 1px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+
+}
+
+nav ul li {
+    margin: 0 20px;
+    display: inline;
+    padding: 10px 20px;
+    background-color: #020d16;
+    border-radius: 10px;
+    transition: .4s ease-out;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav ul li:hover {
+    padding: 10px 150px;
+    background-color: blue;
+}
+
+h1 {
+
+    font-weight: 200;
+    letter-spacing: 7px;
+
+    padding-left: 50px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 8px;
+
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: black solid 1px;
+    
+}
+
+footer p {
+    margin-left: 20px;
+}
+
+.main-p {
+    display: block;
+    margin-top: 20px;
+    width: 600px;
+    height: fit-content;
+}
+
+.main-p p {
+    margin: 20px;
+    text-align: justify;
+}
+
+.main-p h2 {
+    margin: 20px;
+}
+
+.main-p img {
+    padding: 50px;
+    padding-top: 0;
+    margin: auto;
+
+
+}
+
+main div {
+    width: 100%;
+    margin: 0 5%;
+
+    /* Flex just work perflectly */
+    display: flex;
+}
+
+.border {
+    border: black 1px solid;
+}
+
+
+.border-round {
+    border-radius: 200px;
+}
+
+.m-auto {
+    margin: auto;
+    margin-top: 30px;
+}
+
+.paragraphe {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.color-switch {
+    transition: all .1s ease-in-out;
+
+}
+
+.color-switch:hover {
+    background-color: black;
+    color: white;
+}
+
+.text-blue {
+    color: #00AEEF;
+}
+
+.text-purple {
+    color: #8A2BE2;
+}
+
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sour-gummy {
+    font-family: "sourgummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+  }
+
+.sticky {
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+#footer-sticky {
+    position: sticky;
+    z-index: 100;
+    background-color: white;
+    height: 50px;
+}
+
+#lien-haut-hitoire {
+    position: absolute;
+    top: 200px;
+    z-index: 100;
+}
+
+#lien-haut-hitoire a {
+    color: blue;
+
+
+
+}
+
+#image-bas-histoire {
+    position: absolute;
+    bottom: -350px;
+    left: 10px;
+    
+   
+}
+
+#image-bas-histoire a {
+    color: blue;
+}
+
+
+.mb-50 {
+    margin-bottom: 50px;
+}
