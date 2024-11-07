@@ -203,14 +203,12 @@ main div {
 
 .playfair-display {
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 
 .sour-gummy {
     font-family: "sourgummy", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
 
@@ -258,4 +256,8 @@ main div {
 
 .mb-50 {
     margin-bottom: 50px;
+}
+
+li {
+    margin-top: 10px;
 }
