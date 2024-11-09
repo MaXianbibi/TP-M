@@ -1,13 +1,7 @@
 /* Justin Morneau : Matricule 20322340 
  William Caron-Bastarache : Matricule 20309664 */
 
-@font-face {
-    font-family: 'sourgummy';
-    src: url('./fonts/SourGummy-Italic-VariableFont_wdth\,wght.ttf') format('woff2'),
-        url('./fonts/SourGummy-VariableFont_wdth\,wght.ttf') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 body {
     margin: 0;
@@ -66,6 +60,11 @@ header img {
     width: 80%;
 }
 
+main {
+    min-height: 74svh;
+    height: fit-content;
+}
+
 nav {
     padding: 30px 0;
     border-bottom: black solid 1px;
@@ -94,7 +93,6 @@ a {
 
 
 nav ul li:hover {
-    padding: 10px 150px;
     background-color: blue;
 }
 
@@ -110,7 +108,7 @@ h1 {
 }
 
 footer {
-    position: absolute;
+    height: 20px;
     bottom: 0;
     width: 100%;
     border-top: black solid 1px;
@@ -188,16 +186,15 @@ main div {
 }
 
 
-.playfair-display {
-    font-family: "Playfair Display", serif;
+.font-Lucida {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.sour-gummy {
-    font-family: "sourgummy", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+.font-courier {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
 }
 
 .sticky {
@@ -207,7 +204,8 @@ main div {
     background-color: white;
 }
 
-#footer-sticky {
+.footer-sticky {
+    margin-top: 10px;
     position: sticky;
     z-index: 100;
     background-color: white;
@@ -240,4 +238,6 @@ main div {
 
 li {
     margin-top: 10px;
+
+    
 }
